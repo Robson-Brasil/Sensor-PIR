@@ -1,6 +1,5 @@
 const int SensorPin = 22;// the Arduino pin connected to output (middle) wire of sensor
-const int RelePin = 23;// the Arduino pin which is connected to control relay
-
+36
 void setup() {
   Serial.begin(115200);// setup Serial Monitor to display information
    Serial.println("Sensor de Movimento");
